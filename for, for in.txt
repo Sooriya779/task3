@@ -1,0 +1,6 @@
+for(var i=0;i<Resume.length;i++){
+  for (var key in Resume[i]){
+    console.log(key,Resume[i][key]);
+    
+  }
+}

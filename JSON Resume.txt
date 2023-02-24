@@ -1,0 +1,16 @@
+var Resume=[
+{
+  "NAME":"Sooriya",
+  "AGE":"21",
+  "DEGREE":"BCOM General",
+  "SKILLS":("Javascript,html,css"),
+  "EMAIL":"sooriya779@gmail.com",
+  "PHONE":"8056996812"
+}];
+
+for(var i=0;i<Resume.length;i++){
+  for (var key in Resume[i]){
+    console.log(key,Resume[i][key]);
+    
+  }
+}
